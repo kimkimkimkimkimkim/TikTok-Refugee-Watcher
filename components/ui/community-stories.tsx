@@ -89,10 +89,10 @@ export function CommunityStories() {
               {/* Quote */}
               {story.quote && (
                 <blockquote className="border-l-4 border-purple-200 pl-4 italic text-gray-600">
-                  "{story.quote}"
+                  &ldquo;{story.quote}&rdquo;
                   {story.author && (
                     <footer className="text-sm text-gray-500 mt-2">
-                      — {story.author}
+                      &mdash; {story.author}
                     </footer>
                   )}
                 </blockquote>

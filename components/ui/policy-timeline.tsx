@@ -16,7 +16,7 @@ const policyEvents: PolicyEvent[] = [
   {
     date: "April 2024",
     title: "PAFACA Enactment",
-    content: "President Biden enacted the Protecting Americans from Foreign Controlled Applications Act (PAFACA), which empowers the government to ban foreign-owned applications deemed a threat to national security. This law received bipartisan support due to fears that the Chinese government could exploit TikTok for data collection and misinformation campaigns.",
+    content: String.raw`President Biden enacted the Protecting Americans from Foreign Controlled Applications Act (PAFACA), which empowers the government to ban foreign-owned applications deemed a threat to national security. This law received bipartisan support due to fears that the Chinese government could exploit TikTok for data collection and misinformation campaigns.`,
     sources: [
       { id: "2", url: "https://www.npr.org/2025/01/13/nx-s1-5258151/tiktok-ban-us-impact-prepare-workaround" },
       { id: "3", url: "https://19thnews.org/2025/01/tiktok-ban-popularity-americans-content-creation-news/" }
@@ -25,7 +25,7 @@ const policyEvents: PolicyEvent[] = [
   {
     date: "August 2020",
     title: "Initial Executive Order",
-    content: "The push to ban TikTok began during President Trump's administration when he signed an executive order prohibiting American companies from engaging in transactions with ByteDance, TikTok's parent company. This marked the beginning of heightened scrutiny on the app, culminating in various legal battles.",
+    content: String.raw`The push to ban TikTok began during President Trump's administration when he signed an executive order prohibiting American companies from engaging in transactions with ByteDance, TikTok's parent company. This marked the beginning of heightened scrutiny on the app, culminating in various legal battles.`,
     sources: [
       { id: "3", url: "https://19thnews.org/2025/01/tiktok-ban-popularity-americans-content-creation-news/" },
       { id: "4", url: "https://edition.cnn.com/2025/01/11/tech/tiktok-ban-what-next/index.html" }
@@ -34,7 +34,7 @@ const policyEvents: PolicyEvent[] = [
   {
     date: "January 10, 2025",
     title: "Supreme Court Hearing",
-    content: "The U.S. Supreme Court heard oral arguments regarding the constitutionality of the federal law that would require TikTok to either divest from its Chinese ownership or face a ban. The court's initial indications suggested a leaning towards upholding the law, raising concerns for TikTok's future in the U.S.",
+    content: String.raw`The U.S. Supreme Court heard oral arguments regarding the constitutionality of the federal law that would require TikTok to either divest from its Chinese ownership or face a ban. The court's initial indications suggested a leaning towards upholding the law, raising concerns for TikTok's future in the U.S.`,
     sources: [
       { id: "1", url: "https://www.bbc.com/news/articles/cz9g91gn5ddo" },
       { id: "5", url: "https://www.nytimes.com/article/tiktok-ban.html" }
@@ -43,7 +43,7 @@ const policyEvents: PolicyEvent[] = [
   {
     date: "January 19, 2025",
     title: "Potential Ban Enforcement",
-    content: "This date marks the potential enforcement of the ban if no legal intervention occurs. Under the proposed law, major technology companies like Apple and Google would be prohibited from distributing or updating TikTok, effectively leading to its operational demise in the U.S. market.",
+    content: String.raw`This date marks the potential enforcement of the ban if no legal intervention occurs. Under the proposed law, major technology companies like Apple and Google would be prohibited from distributing or updating TikTok, effectively leading to its operational demise in the U.S. market.`,
     sources: [
       { id: "2", url: "https://www.npr.org/2025/01/13/nx-s1-5258151/tiktok-ban-us-impact-prepare-workaround" },
       { id: "4", url: "https://edition.cnn.com/2025/01/11/tech/tiktok-ban-what-next/index.html" }
@@ -72,7 +72,7 @@ export function PolicyTimeline() {
                   <h4 className="text-lg font-semibold text-[#111111]">{event.title}</h4>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  {event.content.replace(/"/g, '&quot;')}
+                  {event.content}
                 </p>
                 
                 {/* Sources */}
