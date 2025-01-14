@@ -66,7 +66,7 @@ export function ImpactAnalysis() {
             <div className="space-y-4">
               {section.content.map((paragraph, pIndex) => (
                 <p key={pIndex} className="text-gray-700 leading-relaxed">
-                  {paragraph}
+                  {paragraph.replace(/"/g, '&quot;')}
                 </p>
               ))}
             </div>

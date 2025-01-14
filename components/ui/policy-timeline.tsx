@@ -71,7 +71,9 @@ export function PolicyTimeline() {
                   <span className="text-sm font-semibold text-blue-600">{event.date}</span>
                   <h4 className="text-lg font-semibold text-[#111111]">{event.title}</h4>
                 </div>
-                <p className="text-gray-700 leading-relaxed">{event.content}</p>
+                <p className="text-gray-700 leading-relaxed">
+                  {event.content.replace(/"/g, '&quot;')}
+                </p>
                 
                 {/* Sources */}
                 <div className="flex flex-wrap gap-2 mt-2">
