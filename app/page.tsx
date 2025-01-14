@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from "next/image";
 import Navigation from "@/components/ui/navigation";
 import { NewsCard } from "@/components/ui/news-card";
 import { Timeline } from "@/components/ui/timeline";

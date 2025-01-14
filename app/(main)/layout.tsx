@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '../globals.css';
+import Link from 'next/link';
+import Navigation from '@/components/ui/navigation';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -53,9 +55,9 @@ export default function MainLayout({
           <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
             <div className="container mx-auto px-4 py-4">
               <nav className="flex items-center justify-between">
-                <a href="/" className="text-xl font-bold text-[#fe2c55] hover:text-[#69c9d0] transition-colors">
+                <Link href="/" className="text-xl font-bold text-[#fe2c55] hover:text-[#69c9d0] transition-colors">
                   TikTok Refugee Crisis Hub 🌐
-                </a>
+                </Link>
                 <div className="flex items-center space-x-4">
                   <a 
                     href="https://twitter.com/share?url=https://tiktok-refugee.com" 

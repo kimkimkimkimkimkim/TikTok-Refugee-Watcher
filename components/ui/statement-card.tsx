@@ -16,7 +16,7 @@ export function StatementCard({ author, role, content, url }: StatementCardProps
       <Card className="overflow-hidden hover:shadow-lg transition-all duration-300">
         <div className="p-6">
           <blockquote className="mb-4">
-            <p className="text-lg font-medium text-[#111111] mb-4 italic">"{content}"</p>
+            <p className="text-lg font-medium text-[#111111] mb-4 italic">&ldquo;{content}&rdquo;</p>
           </blockquote>
           <div className="flex items-center">
             <div className="h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-semibold">
