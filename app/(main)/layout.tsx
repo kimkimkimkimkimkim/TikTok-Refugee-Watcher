@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import '../globals.css';
 import Link from 'next/link';
 import Navigation from '@/components/ui/navigation';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -101,6 +102,7 @@ export default function MainLayout({
             </div>
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
