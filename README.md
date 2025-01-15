@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TikTok Refugee Crisis 
+
+A real-time dashboard tracking the digital migration of content creators amid the TikTok platform transition. Built with Next.js and React.
+
+![TikTok Refugee Crisis Dashboard](public/preview.png)
+
+## Features
+
+- **Live News Updates**: Breaking news and latest developments about the TikTok platform transition
+- **Video Coverage**: Curated video content from various news sources
+- **Timeline**: Chronological tracking of key events
+- **Official Statements**: Statements from key stakeholders and community members
+- **Impact Analysis**: Data-driven analysis of the platform transition's impact
+- **Migration Guide**: Resources for content creators transitioning to new platforms
+- **Policy Timeline**: Track regulatory changes and policy developments
+- **Community Stories**: Real stories from content creators affected by the transition
+
+## Tech Stack
+
+- [Next.js 15](https://nextjs.org/) - React Framework
+- [React 19](https://reactjs.org/) - UI Library
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Shadcn/ui](https://ui.shadcn.com/) - UI Components
+- [Vercel Analytics](https://vercel.com/analytics) - Analytics
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 20.x or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/tiktok-refugee-crisis.git
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/                  # Next.js app directory
+├── components/          # React components
+│   ├── ui/             # UI components
+├── public/             # Static assets
+└── lib/               # Utility functions
+```
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- All content creators affected by the TikTok platform transition
+- News sources providing coverage of the situation
+- Open source community for the amazing tools
+
+## Contact
+
+Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+
+Project Link: [https://github.com/yourusername/tiktok-refugee-crisis](https://github.com/yourusername/tiktok-refugee-crisis)
