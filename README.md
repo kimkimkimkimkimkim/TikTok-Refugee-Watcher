@@ -1,5 +1,8 @@
 # TikTok Refugee Crisis 
 
+TikTok-Refugee-Watcher is an open-source project that tracks the TikTok Refugees incident and its aftermath. Through this website, you can stay updated on the latest developments of the TikTok Refugees incident, the subsequent events following the TikTok ban, and the things creators can prepare in advance.
+
+
 A real-time dashboard tracking the digital migration of content creators amid the TikTok platform transition. Built with Next.js and React.
 
 ![TikTok Refugee Crisis Dashboard](public/preview.png)
@@ -83,8 +86,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - News sources providing coverage of the situation
 - Open source community for the amazing tools
 
-## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/tiktok-refugee-crisis](https://github.com/yourusername/tiktok-refugee-crisis)
